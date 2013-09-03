@@ -1,12 +1,13 @@
 # WretchPhotoDownloader
 
-伴隨我們走過<del>年幼無知</del>的無名小站即將謝幕，9/2 起開放讓平凡大眾下載備份。然而，無名在資料備份並不那麼親民，例如相片影片等都只以網址呈現，因此就寫了個跨台平小 script 幫助大家下載。
+伴隨我們走過<del>年幼無知</del>的無名小站即將謝幕，9/2 起開放讓平凡大眾下載備份。然而，無名在資料備份並不那麼親民，例如相片影片等都只以網址呈現，因此就寫了個跨台平小 script 幫助大家下載。有任何疑問或故障可以聯絡我。
 
-P.S.
-
-無名也有提供 Windows 的下載方式，請見 [http://www.wretch.cc/blog/WretchFAQ/13637278](http://www.wretch.cc/blog/WretchFAQ/13637278)
+P.S. 無名也有提供 Windows 的下載方式，請見 [http://www.wretch.cc/blog/WretchFAQ/13637278](http://www.wretch.cc/blog/WretchFAQ/13637278)
 
 ## 作業系統測試報告
+
+## 無法使用
+* Windows XP
 
 ## 可正常使用
 * Mac
@@ -20,13 +21,10 @@ P.S.
   
   > 接著執行其 `dist` 裡的 `exe` 執行檔即可
 
-  > 但礙於各位不知道怎麼轉譯，因此我幫大家把 dist 資料夾打包好了...
+  > 但礙於各位不知道怎麼轉譯，因此我幫大家把 `dist` 資料夾打包好了...
 
   > 下載位置：[batch_downloader.zip](http://goo.gl/tgjMQe)
-
-## 無法使用
-* Windows XP
-
+  
 ## 操作說明
 
 ### Step 0
