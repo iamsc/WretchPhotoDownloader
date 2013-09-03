@@ -10,7 +10,15 @@ P.S.
 
 ## 可正常使用
 * Mac
-* Windows 7 (需以 `py2exe` 轉釋為執行檔)
+* Windows 7
+
+  > * Windwos 備註：
+
+  > 需以 `py2exe` 轉釋為執行檔，
+  
+  > 轉譯完成後只需把 `dist` 資料夾丟入 `album` 裡，
+  
+  >接著執行其 `dist` 裡的 `exe` 執行檔即可
 
 ## 無法使用
 * Windows XP
@@ -39,6 +47,8 @@ P.S.
     > python download.py
     
 ### Step 5
+回到 `album` 資料夾即可看到各位的相片
+
 大功告成！恭喜各位~
     
 ## 致青春
