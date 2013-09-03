@@ -10,7 +10,7 @@ P.S.
 
 ## 可正常使用
 * Mac
-* Windows 7
+* Windows 7 (需以 `py2exe` 轉釋為執行檔)
 
 ## 無法使用
 * Windows XP
