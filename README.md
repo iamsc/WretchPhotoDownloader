@@ -18,7 +18,11 @@ P.S.
   
   > 轉譯完成後只需把 `dist` 資料夾丟入 `album` 裡，
   
-  >接著執行其 `dist` 裡的 `exe` 執行檔即可
+  > 接著執行其 `dist` 裡的 `exe` 執行檔即可
+
+  > 但礙於各位不知道怎麼轉譯，因此我幫大家把 dist 資料夾打包好了...
+
+  > 下載位置：[batch_downloader.zip](http://goo.gl/tgjMQe)
 
 ## 無法使用
 * Windows XP
