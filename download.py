@@ -8,6 +8,8 @@ elif (os.name == "nt"):
     relativePath = ".."
 
 albumLists = glob.glob(os.path.join(relativePath, '*.txt'))
+errorURLLists = []
+correctURLLists = []
 
 for album in albumLists:
 
@@ -25,10 +27,26 @@ for album in albumLists:
             i = i + 1
             print "Progress: " + str(i) + " / " + str(photoLength)
             if (url.find("http") > -1):
-                urlContent = urllib2.urlopen(url)
-                urlName = url.split('/')[-1].split('?')[0]
-                data = urlContent.read()
-                with open(os.path.join(directoryName, urlName), "wb") as code:
-                    code.write(data)
+                try:
+                    urlContent = urllib2.urlopen(url)
+                    urlName = url.split('/')[-1].split('?')[0]
+                    data = urlContent.read()
+                    with open(os.path.join(directoryName, urlName), "wb") as code:
+                        code.write(data)
+                    correctURLLists.append(url)
+                except urllib2.URLError:
+                    print "Download failed: " + url
+                    errorURLLists.append(url)
 
-print "\nThe photos are downloaded."
+
+correntNumber = len(correctURLLists)
+errorNumber = len(errorURLLists)
+print "\n***** The photos are downloaded. *****"
+print "The total number of photos: " + str(correntNumber + errorNumber) + " photos."
+print "Succeeded: " + str(correntNumber) + " photos."
+print "Failed: " + str(errorNumber) + " photos."
+print "\nThe failed URLs are listed below:"
+for errorURL in errorURLLists:
+    print errorURL
+
+os.system("pause")
