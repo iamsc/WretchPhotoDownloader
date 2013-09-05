@@ -7,11 +7,12 @@ P.S. 無名也有提供 Windows 的下載方式，請見 [http://www.wretch.cc/b
 ## 作業系統測試報告
 
 ## 無法使用
-* Windows XP
+
 
 ## 可正常使用
 * Mac
 * Windows 7
+* Windows XP
 
   > * Windwos 備註：
 
@@ -23,7 +24,7 @@ P.S. 無名也有提供 Windows 的下載方式，請見 [http://www.wretch.cc/b
 
   > 但礙於各位不知道怎麼轉譯，因此我幫大家把 `dist` 資料夾打包好了...
 
-  > 下載位置：[batch_downloader.zip](http://goo.gl/tgjMQe)
+  > 下載位置：[batch_downloader.zip (32 位元)](http://goo.gl/tgjMQe)
   
 ## 操作說明
 
