@@ -6,9 +6,6 @@ P.S. 無名也有提供 Windows 的下載方式，請見 [http://www.wretch.cc/b
 
 ## 作業系統測試報告
 
-## 無法使用
-
-
 ## 可正常使用
 * Mac
 * Windows 7
